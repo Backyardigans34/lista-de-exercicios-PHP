@@ -16,13 +16,13 @@
 
     <main>
 
-    <?php
-    $valor = 100;
+        <?php
+        $valor = 100;
 
-    echo "O antecessor do valor " . $valor . " é " . ($valor - 1) ;
-    
-    ?>
-     
+        echo "O antecessor do valor " . $valor . " é " . ($valor - 1);
+
+        ?>
+
     </main>
 </body>
 

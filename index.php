@@ -15,7 +15,7 @@
     $professor = "Nome do Professor";
     ?>
     <header>
-        <img src="https://www.ifto.edu.br/paraiso/logo-home-campus-paraiso.png/@@images/07619964-1389-4188-91c0-c0f38508b3d4.png"
+        <img src="./assets/ifto-logo.png"
             alt="Logo IFTO Campus Paraíso">
         <h1><?php echo $aluno; ?></h1>
         <h2><?php echo $disciplina; ?></h2>
@@ -33,7 +33,7 @@
             </li>
             <li><a href="questoes/02/index.php">Questão 2:</a> Faça um Programa que converta metros para centímetros.</li>
             <li><a href="questoes/03/index.php">Questão 3:</a> Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.</li>
-            <li><s><a href="questoes/04/index.php">Questão 4:</a> Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada.</s></li>
+            <li><a href="questoes/04/index.php">Questão 4:</a> Faça um algoritmo que receba um valor inteiro e imprima na tela a sua tabuada.</li>
             <li><a href="questoes/05/index.php">Questão 5:</a> Faça um Programa que leia três números e mostre o maior deles.</li>
             <li><a href="questoes/06/index.php">Questão 6:</a> Faça um Programa que leia três números e mostre-os em ordem decrescente.</li>
             <li><a href="questoes/07/index.php">Questão 7:</a> Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário. Ex.: 5!=5.4.3.2.1=120</li>
