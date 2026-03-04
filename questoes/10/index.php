@@ -16,7 +16,26 @@
 
     <main>
 
-    <!-- implementação da solução -->
+    <form method="post">
+    <input type="number" name="segundos" placeholder="Digite o tempo em segundos" required>
+    <button type="submit">Converter</button>
+</form>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    $totalSegundos = $_POST["segundos"];
+
+    $horas = floor($totalSegundos / 3600);
+    $resto = $totalSegundos % 3600;
+
+    $minutos = floor($resto / 60);
+    $segundos = $resto % 60;
+
+    echo "<h3>Tempo convertido:</h3>";
+    echo "$horas hora(s), $minutos minuto(s) e $segundos segundo(s)";
+}
+?>
      
     </main>
 </body>

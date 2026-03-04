@@ -16,7 +16,15 @@
 
     <main>
 
-    <!-- implementação da solução -->
+    <?php
+    echo "<h3>Números ímpares entre 1 e 50:</h3>";
+
+    for ($i = 1; $i <= 50; $i++) {
+        if ($i % 2 != 0) {
+            echo $i . "<br>";
+        }
+    }
+?>
      
     </main>
 </body>

@@ -16,7 +16,17 @@
 
     <main>
 
-    <!-- implementação da solução -->
+    <?php
+    $numeros = [15, 8, 27];
+
+    rsort($numeros); // ordena do maior para o menor
+
+    echo "Ordem decrescente:<br>";
+
+    foreach ($numeros as $num) {
+        echo $num . "<br>";
+    }
+?>
      
     </main>
 </body>

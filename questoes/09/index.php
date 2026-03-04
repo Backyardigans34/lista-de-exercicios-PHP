@@ -16,7 +16,23 @@
 
     <main>
 
-    <!-- implementação da solução -->
+   <form method="post">
+    <input type="text" name="nome" placeholder="Seu nome" required>
+    <input type="number" name="idade" placeholder="Sua idade" required>
+    <button type="submit">Calcular</button>
+</form>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    $nome = $_POST["nome"];
+    $idade = $_POST["idade"];
+
+    $dias = $idade * 365;
+
+    echo "<p>$nome, você já viveu aproximadamente <strong>$dias dias</strong>.</p>";
+}
+?>
      
     </main>
 </body>

@@ -16,7 +16,22 @@
 
     <main>
 
-    <!-- implementação da solução -->
+    <?php
+    $num1 = 10;
+    $num2 = 25;
+    $num3 = 18;
+
+    if ($num1 >= $num2 && $num1 >= $num3) {
+        $maior = $num1;
+    } elseif ($num2 >= $num1 && $num2 >= $num3) {
+        $maior = $num2;
+    } else {
+        $maior = $num3;
+    }
+
+    echo "Os números são: $num1, $num2 e $num3 <br>";
+    echo "O maior número é: $maior";
+?>
      
     </main>
 </body>

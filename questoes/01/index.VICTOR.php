@@ -11,20 +11,16 @@
 <body>
 
     <header>
-        <h2>Questão 04: Tabuada</h2>
+        <h2>Questão 1: Antecessor de um Valor</h2>
     </header>
 
     <main>
 
         <?php
-            $numero = 5;
+        $valor = 100;
 
-            echo "<h3>Tabuada do $numero</h3>";
+        echo "O antecessor do valor " . $valor . " é " . ($valor - 1);
 
-            for ($i = 1; $i <= 10; $i++) {
-                $resultado = $numero * $i;
-                echo "$numero x $i = $resultado <br>";
-            }
         ?>
 
     </main>
