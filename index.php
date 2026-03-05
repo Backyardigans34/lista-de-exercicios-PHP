@@ -11,7 +11,7 @@
 <body>
     <?php
     $aluno = "Victor Gabriel Arruda de Sousa";
-    $disciplina = "Linguas e Técnicas de Programação";
+    $disciplina = "Linguas e Técnicas de Programação II";
     $professor = "Marcos Raimundo";
     ?>
     <header>
